@@ -31,7 +31,7 @@ As software developers, we are actually passionate about tools.
 And we love our processes as well.
 Both processes and tools help us get things done.
 
-But tools and processes can't get in the way of people and relationships.
+But tools and processes can get in the way of people and relationships.
 This principle guides us in choosing tools.
 We choose tools that amplify the individual's effectiveness, rather than tools that the person has to steer and control.
 And we choose tools that facilitate collaboration and communication.
@@ -99,7 +99,7 @@ The third principle of the Agile Manifesto,
 valuing "customer collaboration over contract negotiation",
 can seem self-serving when it's a vendor saying the words.
 But of course, as many customers have learned, contracts can be exploited by _both_ sides, as both shields and weapons.
-(We've heard other developers say "They're going to hate it, but we're giving them exactly what the contract specifies.")
+(We've heard other developers say, "They're going to hate it, but we're giving them exactly what the contract specifies.")
 
 Contracts are important and useful, and time spent negotiating them can be well spent.
 But when that gets in the way of effective collaboration, it's a bad trade.

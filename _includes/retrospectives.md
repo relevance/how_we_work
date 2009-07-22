@@ -16,7 +16,7 @@ We've had a variety of process and technical improvements that have come about d
 * Changing the direction of a project, based on discovering that client budgets have changed.
 * Increased transparency with client developers.
 * Deciding to implement alternative architectures based on newly revealed (or newly decided) future plans.
-* Introducing [pm buddy sessions][pm_buddy], [technical debt management][technical_debt] and [risk management][risk_assessments] across projects.
+* Introducing [PM buddy sessions][pm_buddy], [technical debt management][technical_debt] and [risk management][risk_assessments] across projects.
 
 We do our own company-wide retrospectives periodically,
 but we do project-specific retrospectives as well.

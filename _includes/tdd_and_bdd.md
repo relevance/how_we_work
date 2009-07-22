@@ -3,7 +3,7 @@
 ### Test-Driven Development {#tdd}
 
 At Relevance, we write most of our code in a "test-driven" style.
-Test-driven development means that, before writing a bit of production code that's required,
+Test-driven development (TDD) means that, before writing a bit of production code that's required,
 we'll first write an automated test that verifies that the code is working correctly.
 (Which, of course, it isn't at the time we write the test, so the test fails.)
 Then we'll go write the code that's necessary to make the test pass.
@@ -20,7 +20,7 @@ TDD is incredibly valuable, for numerous reasons:
   features that the customer doesn't value.
 * TDD radically shortens the feedback loop between making a coding error and *discovering* that error.
   Debugging time is slashed by a huge amount.
-  (Even if it all of the other benefits did not exist, this alone would pay for the time spent writing tests.)
+  (Even if all of the other benefits did not exist, this alone would pay for the time spent writing tests.)
 * The tests---especially if they're written in a very expressive style ([see below](#bdd))---serve
   as technical documentation about how the code should work.
   This documentation is very useful to future developers who might take up maintenance or further
@@ -32,13 +32,13 @@ TDD is incredibly valuable, for numerous reasons:
   In fact, one of the best ways to ensure that your code is well designed is to require that
   it be testable.
   (And the best way to do that is to build it through testing!)
-  TDD helps us deliver code that has high cohesion and loose coupling, and a lot other
+  TDD helps us deliver code that has high cohesion and loose coupling, and a lot of other
   qualities that may seem like just so much programmery jargon, but which do make the
   systems less costly to maintain and enhance over time.
   
 ### Behavior-Driven Development {#bdd}
 
-"Behavior-Driven Development" is a style of test-driven development that focuses on
+"Behavior-Driven Development" (BDD) is a style of test-driven development that focuses on
 a different way of *expressing* the tests, using different terminology that emphasizes
 the test's role as *specification*.
 For example, in BDD, we try to refrain from calling

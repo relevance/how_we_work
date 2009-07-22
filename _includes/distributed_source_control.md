@@ -1,6 +1,6 @@
 ## Distributed Source Control {#distributed_source_control}
 
-Relevance uses a distributed source control system called git (and [Github](http://github.com)) to store and track source code and other development-related artifacts.
+Relevance uses a distributed source control system called Git (and [Github](http://github.com)) to store and track source code and other development-related artifacts.
 
 This is more important than it may first appear. Traditional, centralized source control systems inhibit agile teams by making branch and merge operations expensive. This makes parallel, distributed development more costly. So much so, in fact, that source control can become a bottleneck on overall productivity of the team.
 
