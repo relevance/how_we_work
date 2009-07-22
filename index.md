@@ -12,7 +12,7 @@ We make mistakes.  From those mistakes we learn and adapt.  This site describes 
 As such, this site is a description of how we work,
 rather than a *prescription* for how we must work.
 We keep the site current so that it is an *accurate* description.
-Individual projects vary from this description to match its unique context.
+Individual projects vary from this description to match their unique context.
 
 # Who are you?
 
