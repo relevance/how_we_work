@@ -1,6 +1,6 @@
 ---
 permalink: why_this_site.html
-layout: default
+layout: empty_sidebar
 title: Why This Site?
 gh-filename: why_this_site.md
 ---
