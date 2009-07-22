@@ -1,0 +1,70 @@
+/*- common elements
+----------------------------------------------------------------------*/ 
+body{ background:white; font-size:12pt; font-family: helvetica neue,helvetica,arial,sans-serif; color: #333; line-height: 1.5em; padding: 1em;}
+
+p { margin:0 0 1.5em; }
+
+em { font-style: italic;}
+
+a { text-decoration: none; background: transparent; font-weight: bold; color: #222; }
+a:after { content:" (" attr(href) ") "; font-size: 90%; }
+a[href^="/"] { font-weight: normal; }
+a[href^="/"]:after { content: ""; }
+
+blockquote { margin: 0 1em 1.5em 1em; padding: 0.5em 0.5em 0.5em 1em; font-style: italic; page-break-inside: avoid;}
+blockquote p:last-child { margin-bottom: 0; }
+blockquote p.attribution { margin: 0 1em 0; text-align: right; font-style: normal; }
+
+table { background:#FFFFFF none repeat scroll 0 0; border:2px solid #CCCCCC; border-collapse:collapse; margin:0 0 1.5em; border-spacing:0; }
+table th, table td { border:1px solid #CCCCCC; border-collapse:collapse; padding:0.25em 1em; }
+table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #CCCCCC; font-weight:bold; padding:0.5em 1em; }
+
+#header, #content, #footer { margin-bottom: 2em; }
+
+/*- header
+----------------------------------------------------------------------*/
+#header-top { padding-bottom: 0.5em; }
+
+#header { border-top: 3px #333 double; border-bottom: 3px #333 double; padding: 1.5em 0 1em;}
+#header h1 a { font-size:275%; font-weight:bold; color: #333; text-decoration: none; }
+
+#top-nav{display:none;}
+
+/*- content
+----------------------------------------------------------------------*/ 
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 { font-weight: bold; margin-bottom: 1em;}
+#content h1 { font-size: 175%; }
+#content h2 { font-size: 150%; }
+#content h3 { font-size: 130%; }
+#content h4 { font-size: 120%; }
+#content h5 { font-size: 110%; }
+#content h6 { font-size: 105%; }
+
+#content ul, #content ol { margin: 0 1em 1em 2em;}
+#content ul { list-style-type: disc; }
+#content ol { list-style-type: decimal; }
+#content ul li { padding: 0 0 0.25em 0.25em; }
+
+.maruku_toc, #sidebar { display: none; }
+
+/*- footer
+----------------------------------------------------------------------*/ 
+#footer #copyright, #footer #credits {
+  position: relative;
+  width: auto;
+  text-align: left;
+  padding-left: 1em;
+}
+
+#footer #copyright p img { 
+  display: none;
+}
+#footer #credits a.logo {
+  height: auto;
+  width: auto;
+  background: none;
+}
+#footer #credits a.logo span {
+  display: inline;
+}

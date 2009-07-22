@@ -1,0 +1,93 @@
+/*- common elements
+----------------------------------------------------------------------*/ 
+html, body { height: 100%; }
+body { font-family: helvetica neue,helvetica,arial,sans-serif; font-size: 87.5%; color: #333; line-height: 1.5em; }
+p { margin:0 0 1.5em; }
+a { color: #0583f5; }
+a:visited { color: #0583f5; }
+
+em { font-style: italic;}
+
+blockquote { margin: 0 1em 1.5em 1em; padding: 0.5em 0.5em 0.5em 1em; background: #f7f7f7 url(/images/quote_ddd.png) 0.25em 0.25em no-repeat; }
+blockquote p:last-child { margin-bottom: 0; }
+blockquote p.attribution { margin: 0 1em 0; text-align: right; }
+
+table { background:#FFFFFF none repeat scroll 0 0; border:2px solid #CCCCCC; border-collapse:collapse; margin:0 0 1.5em; border-spacing:0; }
+table th, table td { border:1px solid #CCCCCC; border-collapse:collapse; padding:0.25em 1em; }
+table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #CCCCCC; font-weight:bold; padding:0.5em 1em; }
+
+/*- header
+----------------------------------------------------------------------*/
+#header-top-wrap { margin: 0 auto; background-color: #222; border-bottom: 1px solid #565959; }
+#header-top { width:968px; margin:0 auto; position:relative; color:#dce0df; text-align: right; padding: 3px 0;}
+#header-top a { background: transparent url(/images/relevance_logo_small.png) 0 3px no-repeat; display: inline-block; width: 86px; height: 19px; margin-left: 4px; }
+#header-top a span { display: none; }
+
+#header-wrap { margin: 0 auto; background-color: #333; border-bottom: 1px solid #565959; border-top: 1px solid #111;}
+#header { width:968px; margin:0 auto; position:relative; height:70px; color:#eee; }
+#header h1 a { position:absolute; font-size:275%; top:23px; left:10px; font-weight:bold; color: #ccc; text-decoration: none; text-shadow:1px 1px 2px #222; }
+
+#header #top-nav { position: absolute; top: 20px; right: 0; }
+#header #top-nav ul li { float: left; }
+#header #top-nav ul li a { display: block; padding: 5px 9px; margin-left: 8px; color: #eee; text-decoration: none; font-size: 110%;}
+#header #top-nav ul li a.highlight { background-color: #565959; color: #6bb7fc; margin-left: 15px;}
+#header #top-nav ul li a:hover { text-decoration: underline; }
+
+#header a, #header-top a, #footer a { color: #0583f5; }
+
+/*- content
+----------------------------------------------------------------------*/ 
+#content-wrap { margin: 0 auto -120px; border-top: 1px solid #111; padding: 15px 0; }
+#content { width:968px; margin: 0 auto; position:relative; padding-left: 1em;}
+
+#content a[href^="http:"] { background: url(/images/outbound_link_icon.png) right 3px no-repeat; padding-right: 8px; margin-right: 1px;}
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 { font-weight: bold; margin-bottom: 1em;}
+#content h1 { font-size: 175%; }
+#content h2 { font-size: 150%; }
+#content h3 { font-size: 130%; }
+#content h4 { font-size: 120%; }
+#content h5 { font-size: 110%; }
+#content h6 { font-size: 105%; }
+
+#content ul {  }
+#content ul, #content ol { margin:0 1.0em 1.0em;}
+#content ul li { background:transparent url(/images/bullet_square_333.png) no-repeat scroll left 0.6em; padding: 0 0 0.25em 1em; }
+
+#content ol { list-style-type:decimal; }
+#content ol li { list-style-position:outside; padding-bottom: 0.25em; margin-left: 1em;}
+
+/*- table of contents sidebar
+----------------------------------------------------------------------*/ 
+#content #left { width: 680px; float: left; }
+#content #sidebar { width: 250px; top: 0; right: 0; position: absolute; }
+#content #sidebar h4 { margin:0; }
+#content div.maruku_toc { width: 250px; top: 2em; right: 0; position: absolute; }
+#content div.maruku_toc ul { list-style-type: decimal; margin: 0; }
+#content div.maruku_toc ul li { font-weight: bold; padding: 0 0 0.5em 0.5em; background: none; }
+#content div.maruku_toc ul li ul li { font-weight: normal; padding-left: 1em; }
+#content div.maruku_toc ul li ul li:last-child { padding-bottom: 0; }
+
+/*- commits
+----------------------------------------------------------------------*/ 
+#content ul.commit-list { list-style-type: none; margin: 0; }
+#content ul.commit-list li { border-bottom: 1px solid #ccc; padding: 0 0 5px; margin: 0 0 5px; }
+#content ul.commit-list li span.message { display: block; line-height: 1.0em;}
+#content ul.commit-list li span.commit-by { display: inline-block; font-size: 85%; color: #666;}
+#content ul.commit-list li span.commit-on { display: inline-block; font-size: 85%; color: #666;}
+
+/*- footer
+----------------------------------------------------------------------*/ 
+.wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -120px; }
+.wrapper .push { height: 120px; clear: both;}
+
+#footer-wrap { background: #333 url(/images/footer-top-border.gif) top left repeat-x; height: 120px; }
+#footer { width:968px; padding: 10px 0; margin:0 auto; position:relative; color:#eee; font-size: 90%; }
+#footer a { color: #6bb7fc; }
+
+#footer #copyright { left: 10px; top: 30px; width: 600px; position: absolute; }
+#footer #copyright p img { vertical-align: middle; margin-right: 5px; }
+
+#footer #credits { right: 0; top: 20px; width: 288px; position: absolute; text-align: right; }
+#footer #credits a.logo { background: url(/images/relevance_logo_large.png) top left no-repeat; display: block; width: 288px; height: 59px; margin-bottom: 5px;}
+#footer #credits a.logo span { display: none; }

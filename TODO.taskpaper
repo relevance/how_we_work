@@ -1,0 +1,30 @@
+Prior to launch:
+- Remove all in-document internal links (do we really want to do this?)
+- Create fresh repo with single commit
+- Move all discussion of roles to the role section of the stakeholder narrative @done
+- Discuss PM and QA roles @done
+- Rearrange middle portion of stakeholder narrative @done
+  - New h1: Iterations and Stories @done
+  - h2s: Iterations, Story Cards, Objective Acceptance Criteria, Story Points, Point Values, and Velocity @done
+
+Archived tasks:
+- Generalize the agile manifesto page to include other takes on agility, such as feedback loops. @done
+- Ensure that every page except the index has an H1 heading matching the title, since Jekyll doesn't provide one @done
+- google analytics account @done
+  - add tracker @done
+  - invite others @done
+- Footer @done
+- Style the TOC @done
+- Style H1 headings @done
+- Style emphasis correctly @done
+
+UI/Design:
+- Print.css
+  - hide footer & header
+
+Parking Lot:
+- Design abstract
+- All Topics index-like page (ask Jess about layout)
+- Recent commits on a per-page basis
+- Recent commits across the whole project
+- Discussion forum? Where?
