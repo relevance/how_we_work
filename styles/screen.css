@@ -6,6 +6,7 @@ p { margin:0 0 1.5em; }
 a { color: #0583f5; }
 a:visited { color: #0583f5; }
 
+strong { font-weight: bold; }
 em { font-style: italic;}
 
 blockquote { margin: 0 1em 1.5em 1em; padding: 0.5em 0.5em 0.5em 1em; background: #f7f7f7 url(/images/quote_ddd.png) 0.25em 0.25em no-repeat; }
@@ -56,6 +57,13 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 
 #content ol { list-style-type:decimal; }
 #content ol li { list-style-position:outside; padding-bottom: 0.25em; margin-left: 1em;}
+
+#content div.role { float: left; width: 33%; }
+#content div.role a { display: inline-block; padding: 20px; margin-right: 1em; background-color: #e7e7e7; border: 3px double #ccc; height: 130px; text-decoration: none; color: #333;}
+#content div.role a:hover {background-color: #dfdfdf; }
+#content div.role a h2 { color: #0583f5; font-size: 175%; text-align: center;}
+#content div.role a:hover h2 { text-decoration: underline; }
+#content div.role + p { clear: both; padding-top: 1.5em;}
 
 /*- table of contents sidebar
 ----------------------------------------------------------------------*/ 

@@ -1,7 +1,7 @@
 ---
 permalink: agilists.html
 layout: toc
-title: Relevance's Perspective on Agile Methods
+title: Perspective on Agile Methods
 gh-filename: agilists.md
 ---
 Use numbered headers: true
