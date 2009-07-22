@@ -58,13 +58,6 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 #content ol { list-style-type:decimal; }
 #content ol li { list-style-position:outside; padding-bottom: 0.25em; margin-left: 1em;}
 
-#content div.role { float: left; width: 33%; }
-#content div.role a { display: inline-block; padding: 20px; margin-right: 1em; background-color: #e7e7e7; border: 3px double #ccc; height: 130px; text-decoration: none; color: #333;}
-#content div.role a:hover {background-color: #dfdfdf; }
-#content div.role a h2 { color: #0583f5; font-size: 175%; text-align: center;}
-#content div.role a:hover h2 { text-decoration: underline; }
-#content div.role + p { clear: both; padding-top: 1.5em;}
-
 /*- table of contents sidebar
 ----------------------------------------------------------------------*/ 
 #content #left { width: 680px; float: left; }
@@ -75,6 +68,19 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 #content div.maruku_toc ul li { font-weight: bold; padding: 0 0 0.5em 0.5em; background: none; }
 #content div.maruku_toc ul li ul li { font-weight: normal; padding-left: 1em; }
 #content div.maruku_toc ul li ul li:last-child { padding-bottom: 0; }
+
+/* index page 
+----------------------------------------------------------------------*/ 
+.index #content h1.primary { font-size: 200%; margin-bottom: 0.5em;}
+.index #content p { font-size: 120%; margin: 0 0 1em; }
+.index #content p.secondary { font-size: 90%; }
+
+.index #content div.role { float: left; width: 33%; }
+.index #content div.role a { display: inline-block; padding: 20px; margin-right: 1em; background-color: #e7e7e7; border: 3px double #ccc; height: 130px; text-decoration: none; color: #333; font-size: 90%; }
+.index #content div.role a:hover { background-color: #dfdfdf; border-color: #bbb; }
+.index #content div.role a h2 { color: #0583f5; font-size: 175%; text-align: center;}
+.index #content div.role a:hover h2 { text-decoration: underline; }
+.index #content div.role + p { clear: both; padding-top: 1.5em; font-size: 100%; }
 
 /*- commits
 ----------------------------------------------------------------------*/ 
