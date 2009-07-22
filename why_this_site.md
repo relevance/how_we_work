@@ -8,8 +8,8 @@ gh-filename: why_this_site.md
 # Why This Site?
 
 Every company should have a written description of how they do what they do.
-Of course, you shouldn't
-[take that too far](http://en.wikipedia.org/wiki/ISO_9000).
+(Of course, you shouldn't
+[take that too far](http://en.wikipedia.org/wiki/ISO_9000).)
 Documenting the way you work has several benefits:
 
 * It helps you think carefully about what you do and why and whether it's really justified
