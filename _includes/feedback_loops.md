@@ -15,7 +15,7 @@ These feedback loops operate on different time scales to facilitate everything f
 |-------------------------------------------|-----------------------|-----------------------------------|-----------
 | [Pair Programming][]                      | Continuous            | [Developers][developer]           | Continuous
 | [Daily Standup][]                         | Daily                 | [Project team][]                  | 15 minutes
-| [PM Buddy Session][pm_buddy]              | Weekly                | [Project manager][], [PM Buddy][] | 15 minutes
+| [PM Buddy Session][pm_buddy]              | Weekly                | [Project manager][], [PM Buddy][] | 30 minutes
 | [Iteration Planning][]                    | Bi-weekly             | [Project team][]                  | 1-2 hours
 | [Risk Analysis Meeting][risk_assessments] | Every other iteration | [Project team][], [Facilitator][] | 1-2 hours
 | [Retrospective][retrospectives]           | Every other iteration | [Project team][], [Facilitator][] | 1-2 hours
