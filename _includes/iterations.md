@@ -1,6 +1,6 @@
 ### Iterations {#iterations}
 
-Relevance projects are structured in [two-week iterations][story_cards].
+Relevance projects are structured in two-week iterations.
 For each iteration, a set of [story cards][] is selected that we believe can
 be developed during the two weeks.
 Then, during the [eight days][open_source_fridays] of the iteration, those cards will be developed methodically,
