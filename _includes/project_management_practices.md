@@ -68,6 +68,6 @@ Document                | Schedule                   | Author                   
 Story Cards             | Continuous                 | Entire team               | Entire team | Feature-level acceptance criteria and development status
 Standup Report          | Daily                      | Relevance Project Manager | Entire team | Documentation of progress, blockers, new discussions
 Iteration Status Report | Bi-weekly                  | Relevance Project Manager | Entire team | Stories accepted in previous iteration, major milestones reached
-Risk Analysis Report    | Multi-iteration boundaries | Entire team               | Entire team | Documenting risks
+Risk Analysis Report    | Multi-iteration boundaries | Entire team               | Entire team | Documenting risks and the approach for addressing those risks
 Retrospective Notes     | Multi-iteration boundaries | Entire team               | Entire team | Process improvement
 Wiki Documents          | Multi-iteration boundaries | Entire team               | Entire team | System design, architecture, general project knowledge
