@@ -30,6 +30,21 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 
 #top-nav{display:none;}
 
+/*- table of contents
+----------------------------------------------------------------------*/
+#sidebar { display: none; }
+
+.maruku_toc a { font-weight: normal; }
+.maruku_toc a:after { content: ""; }
+
+
+#content div.maruku_toc { float: right; font-size: 70%; line-height: 1.4em; padding-left: 0.5em; border-left: 2px solid #CCC; margin: 0 2em 1em; }
+#content div.maruku_toc ul { list-style-type: decimal; margin: 0; padding-left: 0; }
+#content div.maruku_toc ul li { padding: 0 0 0 0.5em; background: none; }
+#content div.maruku_toc ul li ul { padding-left: 0.6em; }
+#content div.maruku_toc ul li ul li { font-weight: normal }
+#content div.maruku_toc ul li ul li:last-child { padding-bottom: 0; }
+
 /*- content
 ----------------------------------------------------------------------*/ 
 
@@ -45,8 +60,6 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 #content ul { list-style-type: disc; }
 #content ol { list-style-type: decimal; }
 #content ul li { padding: 0 0 0.25em 0.25em; }
-
-.maruku_toc, #sidebar { display: none; }
 
 /*- footer
 ----------------------------------------------------------------------*/ 

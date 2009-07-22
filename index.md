@@ -35,7 +35,7 @@ to work with us** on a project.
 <div class="role" markdown="1"><a href="/agilists.html">
 ## Agilist &raquo;
 
-**You are familiar with agile** methods and are
+**You are familiar with agile methods** and are
 curious about our take on agile software development.
 </a>
 </div>
