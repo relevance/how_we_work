@@ -13,10 +13,10 @@ absolutely necessary to vary the iteration length.
 If all iterations are two weeks long, it makes velocity numbers directly comparable and much more useful.)
 
 Points and velocity are vital concepts.
-As Relevance founder Stu Halloway points out, variance in productivity (or accuracy of estimation)
-is like the weather, whereas velocity is like climate.
+As Relevance founder Stu Halloway points out, variance at the level of single cards---whether
+it's variance in productivity or accuracy of estimation---is like the weather, whereas velocity is like climate.
 That it's raining and windy today might be an annoyance, but it's no reason to pack up and move
-to another state unless it's like this *every* day.
+to another state unless it's like this frequently.
 Similarly, every programmer (and every team) will have days that aren't as productive as we'd like,
 but we'll also have days where we really rock.
 
