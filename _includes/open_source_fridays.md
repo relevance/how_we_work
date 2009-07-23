@@ -5,7 +5,7 @@ On Fridays at Relevance, we don't do billable client work.
 and for giving back to the rich sea of open-source software (especially development tools)
 in which our business swims and thrives.
 
-Each of us as Relevance has one or two open-source projects we're involved in;
+Each of us at Relevance has one or two open-source projects we're involved in;
 some of them are our own, created and primarily maintained here at Relevance.
 Others began elsewhere, and we pitch in with help and improvements.
 Here are some examples:

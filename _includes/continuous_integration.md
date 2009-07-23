@@ -1,6 +1,6 @@
 ## Continuous Integration {#continuous_integration}
 
-Continuous Integration ensures that an application is healthy by making sure that automated tests pass on a neutral machine (not a developer's machine!) Whenever anybody commits code to the central code repository, a CI server downloads the code and runs the build to ensure that the tests are still passing. If any of the automated tests fail, the build fails and the entire team is notified.
+Continuous Integration (CI) ensures that an application is healthy by making sure that automated tests pass on a neutral machine (not just a specific developer's machine). Whenever anybody commits code to the central code repository, a CI server downloads the code and runs the build to ensure that the tests are still passing. If any of the automated tests fail, the build fails and the entire team is notified.
 
 We believe that the build should always be passing, and if somebody breaks the build, it needs to be fixed immediately before further development can take place. We are so passionate about CI that we have developed a hosted service, [RunCodeRun](http://runcoderun.com/), that makes CI easier than ever before.
 

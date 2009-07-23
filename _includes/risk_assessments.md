@@ -14,10 +14,10 @@ but risk assessments are focused solely on risk.
 Risk assessments are monthly meetings we have to discover, communicate, track and address risks.
 In a risk assessment we:
 
-1. Revisit the status of previous risks.
+1. Reassess the status of previous risks.
 1. Identify risks using various approaches (including brainstorming, analogy and history-based).
    Each risk has attributes including a name, a description, a consequence in estimated cost and probability.
 1. Validate and analyze risks for relevance, ambiguity, and uniqueness.
 1. Rank the risks that the project faces.
-1. Decide on how we are going to respond to each risk.
+1. Decide how we are going to respond to each risk.
    (Valid responses include avoidance, acceptance, monitoring or mitigation.)

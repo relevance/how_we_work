@@ -8,4 +8,4 @@ A project audit is wide-ranging, and can cover any area of the software developm
 * Code: MVC adherence, object modeling, idiomatic language and library usage, and transactional integrity.
 * Deployment: Server setup, monitoring, and log management.
 
-We generally fix a number of issues during the audit. At the end of an audit you will receive a detailed report detailing these fixes. The report will also cover the areas listed above, rating your project's performance to date and providing suggestions for improvement.
+We generally fix a number of issues during the audit. At the end of an audit, the project team receives a detailed report describing these fixes. The report will also cover the areas listed above, rating the project's performance to date and providing suggestions for improvement.

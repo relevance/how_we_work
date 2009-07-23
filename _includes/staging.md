@@ -2,8 +2,8 @@
 
 One of our goals is to get software into production---even if the only early users are a few of the customer's stakeholders---as soon as possible in the development cycle.
 However, once early versions of the software are in production,
-it would be disruptive to push not-fully-verified new features into the production system,
-which may be being used either for production work or for demonstrations or training for potential users.
+it would be disruptive to push new-and-not-fully-verified features into the production system,
+which may be in active use either for production work or for demonstrations or training for potential users.
 
 Therefore, we set up a second deployment environment, the *staging* environment.
 Features that are ["ready for showcase"][story_cards] are deployed first to staging,

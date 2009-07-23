@@ -12,6 +12,6 @@ We try not to go overboard in documenting the acceptance criteria.
 It's possible to keep documenting well beyond the point where the additional
 detail ceases to pay for itself.
 A good rule of thumb is "the smallest description that a
-non-team member could comfortable use to test that a card is complete."
+non-team member could comfortably use to test that a card is complete."
 
 For example, "Basic CRUD functionality for the account object" is too vague. However, "Basic CRUD functionality for account, using the User CRUD story as a guideline" *might* be enough, if the "User CRUD" story has already been accepted.

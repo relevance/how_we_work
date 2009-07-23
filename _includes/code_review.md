@@ -1,6 +1,6 @@
 ## Code Review {#code_review}
 
-Our ideal mode of development is [pair programming][]
+Our ideal mode of development is [pair programming][].
 Sometimes, though, it's simply not practical to pair on every task.
 Sickness, vacations, doctor appointments, and other things might interrupt a pair's work together.
 

@@ -18,7 +18,7 @@ As customers and users, you don't see technical debt directly.
 But you do see its effects.
 Users see technical debt in persistent bugs, or in new bugs that pop up when old ones are fixed.
 And customers see it in declining productivity over the life of the project.
-(Have you ever wondered why small enhancements to old software seems to take
+(Have you ever wondered why small enhancements to old software seem to take
 almost as long as it took to write all of version 1?)
 
 We regularly discuss the technical debt on our projects, and keep track of it.
@@ -27,4 +27,4 @@ to clean it up rather than continuing to pay interest in the form of lost produc
 
 This is an ongoing audit of the internal quality of the system.
 It's usually less visible to stakeholders than the other audits,
-but we will keep you aware of our activities related to technical debt.
+but we will keep the customer aware of our activities related to technical debt.
