@@ -6,7 +6,7 @@
 > ---Tom DeMarco and Timothy Lister in [Waltzing with Bears][waltzing]
 > {: .attribution}
 
-The projects we do are full of risk: our clients come to us because they're going into unchartered territory, exploring new lines of business.
+The projects we do are full of risk: our clients come to us because they're going into uncharted territory, exploring new lines of business.
 We know how to [write code][developer], but what we take special pride in is our awareness of risk and ability to handle it.
 Many of our practices deal with risk in an implicit way,
 but risk assessments are focused solely on risk.
