@@ -2,7 +2,7 @@
 
 [peopleware]: http://www.amazon.com/dp/0932633439 "Peopleware: Productive Projects and Teams, by Tom DeMarco and Timothy Lister"
 
-[meetings]: http://www.amazon.com/dp/0515090484 "How to Make Meetings Work!, by Michael Doyle and David Straus"
+[meetings]: http://www.amazon.com/dp/0515090484 "How to Make Meetings Work, by Michael Doyle and David Straus"
 
 [agile_retros]: http://www.pragprog.com/titles/dlret/agile-retrospectives "Agile Retrospectives: Making Good Teams Great, by Esther Derby and Diana Larsen"
 
