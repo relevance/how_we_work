@@ -9,7 +9,7 @@ We have found that this can lead to lower participation and morale---essentially
 > for making sure the participants are using the most effective methods
 > for accomplishing their task in the shortest time.
 >
-> ---Michael Doyle and David Straus, in [How to Make Meetings Work!][meetings]
+> ---Michael Doyle and David Straus, in [How to Make Meetings Work][meetings]
 > {: .attribution}
 
 Some project meetings are best run by a neutral party who is not a regular member of the
