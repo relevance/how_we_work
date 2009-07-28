@@ -21,11 +21,17 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 ----------------------------------------------------------------------*/
 #header-top-wrap { margin: 0 auto; background-color: #222; border-bottom: 1px solid #565959; }
 #header-top { width:968px; margin:0 auto; position:relative; color:#dce0df; text-align: right; padding: 3px 0;}
-#header-top a { background: transparent url(/images/relevance_logo_small.png) 0 3px no-repeat; display: inline-block; width: 86px; height: 19px; margin-left: 4px; }
-#header-top a span { display: none; }
+#header-top a { color: #dce0df; text-decoration: none; }
+#header-top a:hover { color: #bbb; text-decoration: underline; }
+#header-top span.logo, #header-top span.email { padding-right: 10px; border-right: 1px dotted #999; margin-right: 5px; }
+#header-top span.logo a { background: transparent url(/images/relevance_logo_small.png) 0 3px no-repeat; display: inline-block; width: 86px; height: 19px; margin-left: 4px; }
+#header-top span.logo a span { display: none; }
+#header-top span.email a { background: transparent url(/images/mail_icon.png) left 4px no-repeat; padding-left: 19px;}
+#header-top span.phone { background: transparent url(/images/phone_icon.png) left 2px no-repeat; padding-left: 15px;}
 
 #header-wrap { margin: 0 auto; background-color: #333; border-bottom: 1px solid #565959; border-top: 1px solid #111;}
 #header { width:968px; margin:0 auto; position:relative; height:70px; color:#eee; }
+#header a { color: #0583f5; }
 #header h1 a { position:absolute; font-size:275%; top:23px; left:10px; font-weight:bold; color: #ccc; text-decoration: none; text-shadow:1px 1px 2px #222; }
 
 #header #top-nav { position: absolute; top: 20px; right: 0; }
@@ -33,8 +39,6 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 #header #top-nav ul li a { display: block; padding: 5px 9px; margin-left: 8px; color: #eee; text-decoration: none; font-size: 110%;}
 #header #top-nav ul li a.highlight { background-color: #565959; color: #6bb7fc; margin-left: 15px;}
 #header #top-nav ul li a:hover { text-decoration: underline; }
-
-#header a, #header-top a, #footer a { color: #0583f5; }
 
 /*- content
 ----------------------------------------------------------------------*/ 
@@ -102,6 +106,13 @@ table th { background:#EEEEEE none repeat scroll 0 0; border-bottom:3px solid #C
 #footer #copyright { left: 10px; top: 30px; width: 600px; position: absolute; }
 #footer #copyright p img { vertical-align: middle; margin-right: 5px; }
 
-#footer #credits { right: 0; top: 20px; width: 288px; position: absolute; text-align: right; }
-#footer #credits a.logo { background: url(/images/relevance_logo_large.png) top left no-repeat; display: block; width: 288px; height: 59px; margin-bottom: 5px;}
-#footer #credits a.logo span { display: none; }
+#footer #credits { right: 10px; top: 10px; width: 188px; position: absolute; }
+#footer #credits a { color: #dce0df; text-decoration: none; }
+#footer #credits a:hover { color: #bbb; text-decoration: underline; }
+#footer #credits span { display: block; line-height: 1.5em;}
+#footer #credits span.logo a { background: transparent url(/images/relevance_logo_small.png) 0 3px no-repeat; display: inline-block; width: 86px; height: 19px; }
+#footer #credits span.logo a span { display: none; }
+#footer #credits span.email a { background: transparent url(/images/mail_icon.png) left 4px no-repeat; padding-left: 19px;}
+#footer #credits span.phone { display: inline; background: transparent url(/images/phone_icon.png) 2px top no-repeat; padding-left: 19px;}
+#footer #credits span.blog a { background: transparent url(/images/relevance_icon.png) left top no-repeat; padding-left: 19px;}
+#footer #credits span.twitter a { background: transparent url(/images/twitter_icon.png) 2px 2px no-repeat; padding-left: 19px;}
