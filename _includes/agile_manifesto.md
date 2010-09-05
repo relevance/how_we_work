@@ -119,8 +119,8 @@ Here's just one example out of many:
 One of the many reasons we like to work in [iterations][iterations] is that we can deliver working software to the customer every other week.
 That means if there's some external reason (like a sudden budget crunch) that they need to cut the project short, they will have still received something valuable from the relationship.
 And we like to educate our customers about our standards (this website is part of that effort) so that they can see how we work, and hold us to our promises if necessary.
-GitHub allows our customers to look at the code if they are interested, and especially the specs.
-RunCodeRun allows them to watch our test suite grow, and see that we are keeping the tests passing.
+[GitHub](https://github.com/) allows our customers to look at the code if they are interested, and especially the specs.
+[Hudson](http://hudson-ci.org/) allows them to watch our test suite grow, and see that we are keeping the tests passing.
 
 ### Responding to Change {#responding_to_change}
 
