@@ -42,7 +42,7 @@
    Not every reference needs to go there, but doing so allows us to quote the same resource
    in multiple places, with improved consistency and reduced chance of error.
    And it keeps the other files cleaner.
-1. Maruku gives all headings an 'id' attribute.
+2. Maruku gives all headings an 'id' attribute.
    By default, the id is generated (apparently) by stripping all punctuation from the heading text,
    converting strings of whitespace to underscores, and lowercasing.
    (Or something like that.)
@@ -51,7 +51,7 @@
    (And even if it's fine for now, changing the heading text later will break links.)
    So if you need to link directly to a heading within a larger document, assign an explicit id:
    <pre>## "Here's a nickel. Call someone who cares." {: #complaints}</pre>
-1. As of 2009/07/22, the version of Maruku that they're using on GitHub doesn't deal correctly
+3. As of 2009/07/22, the version of Maruku that they're using on GitHub doesn't deal correctly
    with reference-style links.
    If you have a space in your link label, Maruku gets confused.
    In order for it to work correctly, I had to add aliases in `references.md`
