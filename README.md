@@ -1,3 +1,8 @@
+# A note about this repository
+
+This repo is no longer being maintained. Relevance's new How We Work can
+be found at [our company website](http://thinkrelevance.com/how-we-work).
+
 # Working on This Site
 
 1. Start Jekyll with `jekyll --auto --server`, and Jekyll will notice
